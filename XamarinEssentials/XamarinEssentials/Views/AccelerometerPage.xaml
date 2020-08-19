@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             NavigationPage.HasBackButton="True" 
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="XamarinEssentials.Views.AccelerometerPage"
+            >
+    
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Button Text="Start" Clicked="Button_Clicked"/>
+            <Button Text="Stop" Clicked="Button_Clicked_1"/>
+            <Label x:Name="LabelX"/>
+            <Label x:Name="LabelY"/>
+            <Label x:Name="LabelZ"/>
+           
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

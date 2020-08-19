@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="XamarinEssentials.Views.AppInfoPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout>
+                <Label x:Name="LabelApp" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TextColor="Black" Grid.Row="5" Grid.Column="3" />
+                <Label x:Name="LabelVersionInfo" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TextColor="Black" Grid.Row="6" Grid.Column="3" />
+                <Button Text="Check Theme" x:Name="check_theme" Clicked="check_theme_Clicked" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
